@@ -23,8 +23,6 @@ func main() {
 	)
 	exec.Init()
 
-
-
 	//添加到gin路由
 	r := gin.New()
 	xxl_job_executor_gin.XxlJobMux(r, exec)
