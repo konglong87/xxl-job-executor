@@ -2,7 +2,7 @@ package xxl_job_executor_gin
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/xxl-job/xxl-job-executor-go"
+	"github.com/konglong87/xxl-job-executor-go"
 )
 
 func XxlJobMux(e *gin.Engine, exec xxl.Executor) {

@@ -2,7 +2,7 @@
 ## 背景
 xxl-job-executor-go是xxl-job的golang执行器，可以独立运行，有时候我们要与项目或者框架（如:gin框架）集成起来合并为一个服务，本项目因此而生。
 ## 执行器项目地址
-https://github.com/xxl-job/xxl-job-executor-go
+https://github.com/konglong87/xxl-job-executor-go
 ## 与gin集成示例
 ```go
 package main
@@ -10,8 +10,8 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-middleware/xxl-job-executor"
-	"github.com/xxl-job/xxl-job-executor-go"
-	"github.com/xxl-job/xxl-job-executor-go/example/task"
+	"github.com/konglong87/xxl-job-executor-go"
+	"github.com/konglong87/xxl-job-executor-go/example/task"
 	"log"
 )
 
