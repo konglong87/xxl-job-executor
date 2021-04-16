@@ -56,6 +56,5 @@ func main() {
 	exec.RegTask("task.test2", task.Test2)
 	exec.RegTask("task.panic", task.Panic)
 	//go exec.Run()
-
 	log.Fatal(r.Run(":" + Port))
 }
